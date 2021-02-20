@@ -1,4 +1,4 @@
-import { increment, decrement, reset } from './counter.actions';
+import { increment, decrement, reset } from '../actions/counter.actions';
 import { createReducer, on } from '@ngrx/store';
 
 
